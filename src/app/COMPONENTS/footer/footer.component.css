@@ -1,0 +1,13 @@
+footer{
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    height: max-content;
+    padding: 10px;
+    /* position:fixed; */
+    /* margin-bottom: 0; */
+    width: 100%;
+}
+footer > p{
+    vertical-align: middle;
+}

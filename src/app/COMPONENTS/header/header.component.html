@@ -1,1 +1,58 @@
-<p>header works!</p>
+<div class="header">
+    <nav class="header_top">
+      <div class="header_menu">
+        <div routerLink="/" class="header_menu_logo">
+          <mat-icon class="store_icon">store</mat-icon>
+          <h1>Store</h1>
+        </div>
+        <div class="header_menu_searchbar">
+          <input type="text" class="header_menu_input">
+          <div class="header_menu_searchbar_icon">
+            <mat-icon id="searchbtn">search</mat-icon>
+          </div>
+        </div>
+        <div routerLink="/login" class="header_menu_signin" routerLink="/login">
+          <span class="header_menu_top_item">Hello, User</span>
+          <span class="header_menu_bottom_item">Accounts</span>
+        </div>
+        <div routerLink="/your-orders" class="header_menu_signin">
+          <span class="header_menu_top_item">Returns</span>
+          <span class="header_menu_bottom_item">& Orders</span>
+        </div>
+        <div routerLink="/wishlist" class="header_menu_cart">
+          <span class="header_menu_bottom_item wishlist">
+            <mat-icon>favorite</mat-icon>
+          </span>
+          <!-- <p class="header_cart_number">{{wishlist.getWishlistLength()}}</p> -->
+          <p class="header_cart_number">0</p>
+        </div>
+        <div routerLink="/checkout" class="header_menu_cart">
+          <mat-icon>shopping_cart</mat-icon>
+          <!-- <p class="header_cart_number">{{shoppingCart.getCartLength()}}</p> -->
+          <p class="header_cart_number">0</p>
+        </div>
+      </div>
+    </nav>
+  
+    <nav class="header_bottom">
+      <div class="header_bottom_location_text">
+        <span class="header_left_line_one">Delivery to</span>
+        <span class="header_left_line_two"> <Strong>Surat</Strong></span>
+      </div>
+      <div class="header_bottom_category">
+        <h4>Electronics</h4>
+      </div>
+      <div class="header_bottom_category">
+        <h4>Books</h4>
+      </div>
+      <div class="header_bottom_category">
+        <h4>Fashion</h4>
+      </div>
+      <div class="header_bottom_category">
+        <h4>Mobiles</h4>
+      </div>
+      <div class="header_bottom_category">
+        <h4>Computer</h4>
+      </div>
+    </nav>
+  </div>
